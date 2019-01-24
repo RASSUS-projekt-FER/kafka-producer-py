@@ -17,7 +17,7 @@ if __name__ == '__main__':
         control = {
             'deviceName': device_name,
             'metricName': metric_name,
-            'aggregationName': aggregation_name,
+            'aggregationType': aggregation_name,
             'operator': operator,
             'threshold': threshold
         }
