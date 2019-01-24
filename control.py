@@ -19,7 +19,7 @@ if __name__ == '__main__':
             'metricName': metric_name,
             'aggregationType': aggregation_name,
             'operator': operator,
-            'threshold': threshold
+            'threshold': float(threshold)
         }
         print('Sending {} to kafka cluster'.format(control))
         producer.send('controls-topic', control)
